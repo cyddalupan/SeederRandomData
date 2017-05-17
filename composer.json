@@ -1,0 +1,22 @@
+{
+    "name": "cyddalupan/seeder-random-data",
+    "description": "Use for Laravel seed, proper words than generating random string.",
+    "keywords": ["laravel","seeder","random","proper","words"],
+    "type": "library",
+    "license": "MIT",
+    "version" : "1.0.0",
+    "authors": [
+        {
+            "name": "Cyd Dalupan",
+            "email": "cydmdalupan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Cyddalupan\\SeederRandomData\\": "src/"
+        }
+    },
+    "require": {}
+}
