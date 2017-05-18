@@ -4,6 +4,21 @@ require_once('src/SeederRandomData.php');
 use Cyddalupan\SeederRandomData\SeederRandomData as SeederRandomData;
 
 //header
+echo "<h2>Random Things Sample</h2>";
+//code
+$thingSeed = '';
+for ($thingw=0; $thingw < rand(1,3); $thingw++) { 
+        for ($thin_s=0; $thin_s < rand(1,5); $thin_s++) { 
+                $thingSeed =  $thingSeed.SeederRandomData::$SeedThingsArray[
+                	rand(0,count(SeederRandomData::$SeedThingsArray)-1)
+                ];
+        }
+        $thingSeed =  $thingSeed.' ';
+}
+//output
+echo $thingSeed;
+
+//header
 echo "<h2>Random Food Sample</h2>";
 //code
 $foodSeed = '';
