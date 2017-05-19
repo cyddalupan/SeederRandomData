@@ -18,6 +18,8 @@ for ($thingw=0; $thingw < rand(1,3); $thingw++) {
 //output
 echo $thingSeed;
 
+#####################################################################
+
 //header
 echo "<h2>Random Food Sample</h2>";
 //code
@@ -41,3 +43,15 @@ echo "<h2>Random Unit of measurement</h2>";
 $UomSeed = SeederRandomData::$SeedUomArray[rand(0,count(SeederRandomData::$SeedUomArray)-1)];
 //output
 echo $UomSeed;
+
+
+#####################################################################
+
+
+//header
+echo "<h2>Random Date</h2>";
+//random date
+$randomTimestamp = rand(strtotime("last Month"),strtotime("now"));
+$randomDate = date("Y-m-d H:i:s",$randomTimestamp);
+//output
+echo $randomDate;
