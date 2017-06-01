@@ -59,6 +59,16 @@ Class SeederRandomData
 	        'mu',
 	        'ru',
 	        'lu',
+	        'xa',
+	        'xe',
+	        'xi',
+	        'xo',
+	        'xu',
+	        'pa',
+	        'pe',
+	        'pi',
+	        'po',
+	        'pu',
 	);
 
 
